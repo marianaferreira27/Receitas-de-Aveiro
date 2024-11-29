@@ -1,0 +1,92 @@
+body {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+h1 {
+    text-align: center;
+    color: firebrick;
+}
+
+.menu {
+    text-align: center;
+}
+
+#menu-botoes {
+    text-decoration: none;
+    color: white;
+}
+
+#receitas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#receitas-index {
+    margin-left: 20px;
+}
+
+#ingredientes {
+    list-style-position: inside;
+    list-style-type: none;
+}
+
+#ingredientes-linha {
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 30%;
+}
+
+#receita-texto {
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.button {
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    background-color: firebrick; 
+  }
+
+#header {
+    width: 100%;
+}
+
+#titulo {
+    background-color: firebrick;
+    color: white;
+    width: 350px;
+}
+
+#titulo-1 {
+    color: firebrick;
+    width: 350px;
+}
+
+#receitas {
+    padding-left: 20px;
+}
+
+#link-receitas {
+    text-decoration: none;
+    color: black;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+#foto-receitas-1 {
+    width: 60%;
+    text-align: center;
+}
